@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1290" height="2796" viewBox="0 0 1290 2796">
+<defs>
+
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#F7FAFC"/>
+  <stop offset="1" stop-color="#E3ECF2"/>
+</linearGradient>
+</defs>
+<rect width="1290" height="2796" fill="url(#bg)"/>
+<path d="M 459.03 1126.60 A 278.19 278.19 0 1 0 819.89 1117.15" fill="none" stroke="#37CAB8" stroke-width="28.65" stroke-linecap="round" opacity="0.120" />
+<path d="M 954.31 1138.38 A 365.71 365.71 0 1 0 943.68 1544.54" fill="none" stroke="#37CAB8" stroke-width="28.65" stroke-linecap="round" opacity="0.111" />
+<path d="M 348.78 990.46 A 453.24 453.24 0 1 0 922.86 975.43" fill="none" stroke="#37CAB8" stroke-width="28.65" stroke-linecap="round" opacity="0.103" />
+<path d="M 1105.98 1050.81 A 540.76 540.76 0 1 0 1090.56 1639.93" fill="none" stroke="#37CAB8" stroke-width="28.65" stroke-linecap="round" opacity="0.094" />
+<path d="M 238.58 854.38 A 628.28 628.28 0 1 0 1025.79 833.76" fill="none" stroke="#37CAB8" stroke-width="28.65" stroke-linecap="round" opacity="0.086" />
+<path d="M 1257.62 963.26 A 715.80 715.80 0 1 0 1237.40 1735.29" fill="none" stroke="#37CAB8" stroke-width="28.65" stroke-linecap="round" opacity="0.077" />
+<path d="M 128.40 718.32 A 803.32 803.32 0 1 0 1128.70 692.12" fill="none" stroke="#37CAB8" stroke-width="28.65" stroke-linecap="round" opacity="0.069" />
+<path d="M 1409.23 875.73 A 890.84 890.84 0 1 0 1384.23 1830.64" fill="none" stroke="#37CAB8" stroke-width="28.65" stroke-linecap="round" opacity="0.060" />
+<path d="M 18.23 582.26 A 978.37 978.37 0 1 0 1231.60 550.49" fill="none" stroke="#37CAB8" stroke-width="28.65" stroke-linecap="round" opacity="0.051" />
+<path d="M 1560.84 788.20 A 1065.89 1065.89 0 1 0 1531.05 1925.99" fill="none" stroke="#37CAB8" stroke-width="28.65" stroke-linecap="round" opacity="0.043" />
+<path d="M -91.94 446.22 A 1153.41 1153.41 0 1 0 1334.49 408.87" fill="none" stroke="#37CAB8" stroke-width="28.65" stroke-linecap="round" opacity="0.034" />
+<path d="M 1712.44 700.67 A 1240.93 1240.93 0 1 0 1677.86 2021.33" fill="none" stroke="#37CAB8" stroke-width="28.65" stroke-linecap="round" opacity="0.026" />
+<path d="M -202.11 310.17 A 1328.45 1328.45 0 1 0 1437.39 267.24" fill="none" stroke="#37CAB8" stroke-width="28.65" stroke-linecap="round" opacity="0.017" />
+<path d="M 1864.04 613.14 A 1415.97 1415.97 0 1 0 1824.67 2116.67" fill="none" stroke="#37CAB8" stroke-width="28.65" stroke-linecap="round" opacity="0.009" />
+<path d="M 505.94 1203.04 A 190.67 190.67 0 1 0 777.04 1195.94" fill="none" stroke="#37CAB8" stroke-width="52.10" stroke-linecap="round" opacity="1.0" />
+<path d="M 718.61 1261.24 A 103.15 103.15 0 1 0 714.73 1409.51" fill="none" stroke="#37CAB8" stroke-width="52.10" stroke-linecap="round" opacity="1.0" />
+<circle cx="645.00" cy="1333.50" r="42.72" fill="#468DD2" opacity="1.0"/>
+<text x="645.00" y="1732.26" text-anchor="middle" fill="#0B0F14" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="91.02" letter-spacing="3.64">UNICONTROL</text>
+</svg>

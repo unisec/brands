@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="2160" viewBox="0 0 3840 2160">
+<defs>
+
+<radialGradient id="bg" cx="50%" cy="45%" r="75%">
+  <stop offset="0" stop-color="#0F2A44"/>
+  <stop offset="1" stop-color="#050B14"/>
+</radialGradient>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%">
+  <stop offset="0" stop-color="#37CAB8" stop-opacity="0.22"/>
+  <stop offset="1" stop-color="#37CAB8" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<rect width="3840" height="2160" fill="url(#bg)"/>
+<circle cx="1920.0" cy="972.0" r="898.5600000000001" fill="url(#glow)"/>
+<path d="M 1679.04 703.93 A 360.45 360.45 0 1 0 2146.60 691.68" fill="none" stroke="#37CAB8" stroke-width="37.12" stroke-linecap="round" opacity="0.100" />
+<path d="M 2320.77 719.19 A 473.85 473.85 0 1 0 2306.99 1245.44" fill="none" stroke="#37CAB8" stroke-width="37.12" stroke-linecap="round" opacity="0.093" />
+<path d="M 1536.19 527.53 A 587.25 587.25 0 1 0 2280.02 508.05" fill="none" stroke="#37CAB8" stroke-width="37.12" stroke-linecap="round" opacity="0.086" />
+<path d="M 2517.29 605.72 A 700.65 700.65 0 1 0 2497.30 1369.03" fill="none" stroke="#37CAB8" stroke-width="37.12" stroke-linecap="round" opacity="0.079" />
+<path d="M 1393.41 351.21 A 814.05 814.05 0 1 0 2413.38 324.50" fill="none" stroke="#37CAB8" stroke-width="37.12" stroke-linecap="round" opacity="0.071" />
+<path d="M 2713.75 492.29 A 927.45 927.45 0 1 0 2687.56 1492.59" fill="none" stroke="#37CAB8" stroke-width="37.12" stroke-linecap="round" opacity="0.064" />
+<path d="M 1250.65 174.92 A 1040.85 1040.85 0 1 0 2546.72 140.98" fill="none" stroke="#37CAB8" stroke-width="37.12" stroke-linecap="round" opacity="0.057" />
+<path d="M 2910.20 378.87 A 1154.25 1154.25 0 1 0 2877.80 1616.14" fill="none" stroke="#37CAB8" stroke-width="37.12" stroke-linecap="round" opacity="0.050" />
+<path d="M 1107.90 -1.36 A 1267.65 1267.65 0 1 0 2680.04 -42.53" fill="none" stroke="#37CAB8" stroke-width="37.12" stroke-linecap="round" opacity="0.043" />
+<path d="M 3106.64 265.46 A 1381.05 1381.05 0 1 0 3068.03 1739.67" fill="none" stroke="#37CAB8" stroke-width="37.12" stroke-linecap="round" opacity="0.036" />
+<path d="M 965.16 -177.63 A 1494.45 1494.45 0 1 0 2813.36 -226.03" fill="none" stroke="#37CAB8" stroke-width="37.12" stroke-linecap="round" opacity="0.029" />
+<path d="M 3303.07 152.05 A 1607.85 1607.85 0 1 0 3258.26 1863.21" fill="none" stroke="#37CAB8" stroke-width="37.12" stroke-linecap="round" opacity="0.021" />
+<path d="M 822.42 -353.90 A 1721.25 1721.25 0 1 0 2946.68 -409.53" fill="none" stroke="#37CAB8" stroke-width="37.12" stroke-linecap="round" opacity="0.014" />
+<path d="M 3499.49 38.65 A 1834.65 1834.65 0 1 0 3448.48 1986.74" fill="none" stroke="#37CAB8" stroke-width="37.12" stroke-linecap="round" opacity="0.007" />
+<path d="M 1739.83 802.97 A 247.05 247.05 0 1 0 2091.08 793.77" fill="none" stroke="#37CAB8" stroke-width="67.50" stroke-linecap="round" opacity="1.0" />
+<path d="M 2015.38 878.38 A 133.65 133.65 0 1 0 2010.35 1070.49" fill="none" stroke="#37CAB8" stroke-width="67.50" stroke-linecap="round" opacity="1.0" />
+<circle cx="1920.00" cy="972.00" r="55.35" fill="#468DD2" opacity="1.0"/>
+<text x="1920.00" y="1488.67" text-anchor="middle" fill="#FFFFFF" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="117.94" letter-spacing="4.72">UNICONTROL</text>
+</svg>

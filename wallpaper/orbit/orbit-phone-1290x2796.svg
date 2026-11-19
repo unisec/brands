@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1290" height="2796" viewBox="0 0 1290 2796">
+<defs>
+
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#07121F"/>
+  <stop offset="1" stop-color="#0D2236"/>
+</linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#37CAB8"/>
+  <stop offset="1" stop-color="#468DD2"/>
+</linearGradient>
+</defs>
+<rect width="1290" height="2796" fill="url(#bg)"/>
+<path d="M -30.42 921.71 A 1241.94 1241.94 0 1 0 1580.54 879.52" fill="none" stroke="#37CAB8" stroke-width="127.91" stroke-linecap="round" opacity="0.080" />
+<path d="M 2180.67 974.28 A 1632.66 1632.66 0 1 0 2133.19 2787.51" fill="none" stroke="#37CAB8" stroke-width="127.91" stroke-linecap="round" opacity="0.080" />
+<path d="M -522.61 313.93 A 2023.38 2023.38 0 1 0 2040.25 246.82" fill="none" stroke="#37CAB8" stroke-width="127.91" stroke-linecap="round" opacity="0.080" />
+<path d="M 2857.76 583.35 A 2414.10 2414.10 0 1 0 2788.89 3213.34" fill="none" stroke="#37CAB8" stroke-width="127.91" stroke-linecap="round" opacity="0.080" />
+<path d="M -1014.57 -293.58 A 2804.82 2804.82 0 1 0 2499.74 -385.61" fill="none" stroke="#37CAB8" stroke-width="127.91" stroke-linecap="round" opacity="0.080" />
+<path d="M 3534.69 192.52 A 3195.54 3195.54 0 1 0 3444.44 3639.06" fill="none" stroke="#37CAB8" stroke-width="127.91" stroke-linecap="round" opacity="0.080" />
+<path d="M 179.01 1262.96 A 851.21 851.21 0 1 0 1389.25 1231.27" fill="none" stroke="url(#ring)" stroke-width="232.57" stroke-linecap="round" opacity="0.9" />
+<path d="M 1128.42 1522.78 A 460.49 460.49 0 1 0 1111.09 2184.70" fill="none" stroke="url(#ring)" stroke-width="232.57" stroke-linecap="round" opacity="0.9" />
+<circle cx="799.80" cy="1845.36" r="190.71" fill="#468DD2" opacity="0.9"/>
+<path d="M 603.61 167.57 A 56.75 56.75 0 1 0 684.30 165.46" fill="none" stroke="#37CAB8" stroke-width="15.50" stroke-linecap="round" opacity="1.0" />
+<path d="M 666.91 184.89 A 30.70 30.70 0 1 0 665.75 229.02" fill="none" stroke="#37CAB8" stroke-width="15.50" stroke-linecap="round" opacity="1.0" />
+<circle cx="645.00" cy="206.40" r="12.71" fill="#468DD2" opacity="1.0"/>
+</svg>

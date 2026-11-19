@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1290" height="2796" viewBox="0 0 1290 2796">
+<defs>
+
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#37CAB8"/>
+  <stop offset="0.55" stop-color="#468DD2"/>
+  <stop offset="1" stop-color="#1B3556"/>
+</linearGradient>
+</defs>
+<rect width="1290" height="2796" fill="url(#bg)"/>
+<path d="M 412.54 1139.38 A 347.74 347.74 0 1 0 863.61 1127.57" fill="none" stroke="#FFFFFF" stroke-width="35.82" stroke-linecap="round" opacity="0.120" />
+<path d="M 1031.64 1154.10 A 457.14 457.14 0 1 0 1018.35 1661.80" fill="none" stroke="#FFFFFF" stroke-width="35.82" stroke-linecap="round" opacity="0.110" />
+<path d="M 274.72 969.20 A 566.55 566.55 0 1 0 992.33 950.41" fill="none" stroke="#FFFFFF" stroke-width="35.82" stroke-linecap="round" opacity="0.100" />
+<path d="M 1221.23 1044.64 A 675.95 675.95 0 1 0 1201.95 1781.04" fill="none" stroke="#FFFFFF" stroke-width="35.82" stroke-linecap="round" opacity="0.090" />
+<path d="M 136.98 799.10 A 785.35 785.35 0 1 0 1120.98 773.33" fill="none" stroke="#FFFFFF" stroke-width="35.82" stroke-linecap="round" opacity="0.080" />
+<path d="M 1410.77 935.21 A 894.75 894.75 0 1 0 1385.50 1900.24" fill="none" stroke="#FFFFFF" stroke-width="35.82" stroke-linecap="round" opacity="0.070" />
+<path d="M -0.75 629.02 A 1004.15 1004.15 0 1 0 1249.62 596.28" fill="none" stroke="#FFFFFF" stroke-width="35.82" stroke-linecap="round" opacity="0.060" />
+<path d="M 1600.29 825.79 A 1113.56 1113.56 0 1 0 1569.03 2019.43" fill="none" stroke="#FFFFFF" stroke-width="35.82" stroke-linecap="round" opacity="0.050" />
+<path d="M -138.47 458.96 A 1222.96 1222.96 0 1 0 1378.25 419.24" fill="none" stroke="#FFFFFF" stroke-width="35.82" stroke-linecap="round" opacity="0.040" />
+<path d="M 1789.80 716.37 A 1332.36 1332.36 0 1 0 1752.56 2138.61" fill="none" stroke="#FFFFFF" stroke-width="35.82" stroke-linecap="round" opacity="0.030" />
+<path d="M -276.18 288.90 A 1441.76 1441.76 0 1 0 1506.87 242.21" fill="none" stroke="#FFFFFF" stroke-width="35.82" stroke-linecap="round" opacity="0.020" />
+<path d="M 1979.30 606.96 A 1551.16 1551.16 0 1 0 1936.07 2257.79" fill="none" stroke="#FFFFFF" stroke-width="35.82" stroke-linecap="round" opacity="0.010" />
+<path d="M 471.18 1234.93 A 238.34 238.34 0 1 0 810.05 1226.05" fill="none" stroke="#FFFFFF" stroke-width="65.12" stroke-linecap="round" opacity="1.0" />
+<path d="M 737.01 1307.68 A 128.94 128.94 0 1 0 732.16 1493.02" fill="none" stroke="#FFFFFF" stroke-width="65.12" stroke-linecap="round" opacity="1.0" />
+<circle cx="645.00" cy="1398.00" r="53.40" fill="#FFFFFF" opacity="1.0"/>
+</svg>
