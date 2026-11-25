@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="260" viewBox="0 0 500 260">
+<defs>
+
+</defs>
+<rect width="500" height="260" fill="#000000"/>
+<path d="M 207.65 44.27 A 58.07 58.07 0 1 0 290.21 42.11" fill="none" stroke="#37CAB8" stroke-width="15.87" stroke-linecap="round" opacity="1.0" />
+<path d="M 272.42 61.99 A 31.41 31.41 0 1 0 271.24 107.15" fill="none" stroke="#37CAB8" stroke-width="15.87" stroke-linecap="round" opacity="1.0" />
+<circle cx="250.00" cy="84.00" r="13.01" fill="#468DD2" opacity="1.0"/>
+<text x="250.00" y="193.52" text-anchor="middle" fill="#FFFFFF" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="32.00" textLength="230.00" lengthAdjust="spacingAndGlyphs">UNICONTROL</text>
+<text x="250.00" y="217.50" text-anchor="middle" fill="#37CAB8" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="12.50" textLength="230.00" lengthAdjust="spacingAndGlyphs">AMBIENTES INTELIGENTES</text>
+</svg>

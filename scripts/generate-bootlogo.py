@@ -10,6 +10,9 @@ Formato exigido pelo U-Boot, copiado da logo de fábrica:
     então a arte deitada (500 x 260) é girada 90° no sentido horário;
   - fundo preto, que se funde com o resto da tela.
 
+Todas as variantes têm o símbolo, a marca UNICONTROL e o slogan
+AMBIENTES INTELIGENTES; o que muda é a composição e as cores.
+
 Para cada variante são gerados:
   <nome>.svg          arte deitada, em vetor
   <nome>-preview.png  arte deitada, 500 x 260, para ver como fica no tablet
@@ -51,77 +54,89 @@ def background():
     return f'<rect width="{W}" height="{H}" fill="#000000"/>'
 
 
-def wordmark_left(x, y, height, color):
+FONT = "Roboto, 'Helvetica Neue', Arial, sans-serif"
+NAME = "UNICONTROL"
+TAGLINE = "AMBIENTES INTELIGENTES"
+WHITE = "#FFFFFF"
+GREY = "#AEB8C2"
+
+
+def text(x, y, content, size, color, width, weight=700, anchor="start"):
+    """Texto em caixa alta com largura fixa (`textLength`).
+
+    Fixar a largura deixa marca e slogan alinhados nas duas pontas,
+    independente da fonte que o Chrome encontrar no sistema.
+    `y` é o centro vertical das maiúsculas.
+    """
+    baseline = y + size * 0.36  # altura de maiúscula ≈ 0.72 em
     return (
-        f'<text x="{x:.2f}" y="{y:.2f}" text-anchor="start" dominant-baseline="central" '
-        f'fill="{color}" font-family="Roboto, \'Helvetica Neue\', Arial, sans-serif" '
-        f'font-weight="700" font-size="{height:.2f}" '
-        f'letter-spacing="{height * 0.04:.2f}">UNICONTROL</text>'
+        f'<text x="{x:.2f}" y="{baseline:.2f}" text-anchor="{anchor}" fill="{color}" '
+        f'font-family="{FONT}" font-weight="{weight}" font-size="{size:.2f}" '
+        f'textLength="{width:.2f}" lengthAdjust="spacingAndGlyphs">{content}</text>'
     )
+
+
+def lockup_side(cx, size, name_color, tag_color, **sym):
+    """Símbolo à esquerda; marca e slogan empilhados à direita."""
+    cy = H / 2
+    x = cx + size / 2 + 24
+    width = W - x - 32
+    return [
+        wp.symbol(cx, cy, size, **sym),
+        text(x, cy - 13, NAME, 40, name_color, width),
+        text(x, cy + 25, TAGLINE, 15, tag_color, width, weight=500),
+    ]
+
+
+def lockup_stacked(size, name_color, tag_color, **sym):
+    """Símbolo no centro; marca e slogan centralizados embaixo."""
+    cx = W / 2
+    cy = 18 + size / 2
+    name_y = cy + size / 2 + 32
+    width = 230
+    return [
+        wp.symbol(cx, cy, size, **sym),
+        text(cx, name_y, NAME, 32, name_color, width, anchor="middle"),
+        text(cx, name_y + 31, TAGLINE, 12.5, tag_color, width, weight=500, anchor="middle"),
+    ]
 
 
 # ---------------------------------------------------------------- variantes
 
 
 def horizontal():
-    """Símbolo à esquerda e marca em branco à direita, como o logo.png."""
-    size = 110
-    cx, cy = 85, H / 2
-    body = [
-        background(),
-        wp.symbol(cx, cy, size),
-        wordmark_left(cx + size / 2 + 22, cy, 42, "#FFFFFF"),
-    ]
-    return wp.svg(W, H, "", "\n".join(body))
+    """Símbolo à esquerda, marca em branco e slogan em cinza à direita."""
+    return wp.svg(W, H, "", "\n".join([background(), *lockup_side(82, 116, WHITE, GREY)]))
 
 
 def stacked():
-    """Símbolo no centro com a marca embaixo."""
-    size = 140
-    cx, cy = W / 2, H / 2 - 22
-    body = [
-        background(),
-        wp.symbol(cx, cy, size),
-        wp.wordmark(cx, cy + size / 2 + 44, 30, "#FFFFFF"),
-    ]
-    return wp.svg(W, H, "", "\n".join(body))
+    """Símbolo no centro, marca e slogan embaixo."""
+    return wp.svg(W, H, "", "\n".join([background(), *lockup_stacked(132, WHITE, GREY)]))
 
 
-def symbol():
-    """Só o símbolo, nas cores da marca."""
-    body = [background(), wp.symbol(W / 2, H / 2, 180)]
-    return wp.svg(W, H, "", "\n".join(body))
+def accent():
+    """Como a stacked, mas com o slogan na cor da marca."""
+    return wp.svg(W, H, "", "\n".join([background(), *lockup_stacked(132, WHITE, TEAL)]))
 
 
 def gradient():
-    """Símbolo com anéis em degradê teal → azul e marca embaixo."""
-    size = 140
-    cx, cy = W / 2, H / 2 - 22
-    body = [
-        background(),
-        wp.symbol(cx, cy, size, outer="url(#ring)", inner="url(#ring)", dot=BLUE),
-        wp.wordmark(cx, cy + size / 2 + 44, 30, "#FFFFFF"),
-    ]
+    """Anéis em degradê teal → azul, marca e slogan embaixo."""
+    ring = {"outer": "url(#ring)", "inner": "url(#ring)", "dot": BLUE}
+    body = [background(), *lockup_stacked(132, WHITE, GREY, **ring)]
     return wp.svg(W, H, GRADIENT, "\n".join(body))
 
 
 def mono():
     """Tudo em branco: discreto, bom para painéis de parede."""
-    size = 110
-    cx, cy = 85, H / 2
-    white = "#FFFFFF"
-    body = [
-        background(),
-        wp.symbol(cx, cy, size, outer=white, inner=white, dot=white),
-        wordmark_left(cx + size / 2 + 22, cy, 42, white),
-    ]
+    white = {"outer": WHITE, "inner": WHITE, "dot": WHITE}
+    body = [background(), *lockup_side(82, 116, WHITE, WHITE, **white)]
     return wp.svg(W, H, "", "\n".join(body))
 
 
 VARIANTS = {
     "horizontal": horizontal,
     "stacked": stacked,
-    "symbol": symbol,
+    "accent": accent,
     "gradient": gradient,
     "mono": mono,
 }

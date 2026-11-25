@@ -3,8 +3,9 @@
 
 </defs>
 <rect width="500" height="260" fill="#000000"/>
-<path d="M 49.71 96.89 A 48.39 48.39 0 1 0 118.51 95.09" fill="none" stroke="#37CAB8" stroke-width="13.22" stroke-linecap="round" opacity="1.0" />
-<path d="M 103.68 111.66 A 26.18 26.18 0 1 0 102.70 149.29" fill="none" stroke="#37CAB8" stroke-width="13.22" stroke-linecap="round" opacity="1.0" />
-<circle cx="85.00" cy="130.00" r="10.84" fill="#468DD2" opacity="1.0"/>
-<text x="162.00" y="130.00" text-anchor="start" dominant-baseline="central" fill="#FFFFFF" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="42.00" letter-spacing="1.68">UNICONTROL</text>
+<path d="M 44.78 95.09 A 51.03 51.03 0 1 0 117.34 93.19" fill="none" stroke="#37CAB8" stroke-width="13.94" stroke-linecap="round" opacity="1.0" />
+<path d="M 101.70 110.66 A 27.61 27.61 0 1 0 100.66 150.34" fill="none" stroke="#37CAB8" stroke-width="13.94" stroke-linecap="round" opacity="1.0" />
+<circle cx="82.00" cy="130.00" r="11.43" fill="#468DD2" opacity="1.0"/>
+<text x="164.00" y="131.40" text-anchor="start" fill="#FFFFFF" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="40.00" textLength="304.00" lengthAdjust="spacingAndGlyphs">UNICONTROL</text>
+<text x="164.00" y="160.40" text-anchor="start" fill="#AEB8C2" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="15.00" textLength="304.00" lengthAdjust="spacingAndGlyphs">AMBIENTES INTELIGENTES</text>
 </svg>
